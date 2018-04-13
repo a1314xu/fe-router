@@ -1,4 +1,4 @@
-import Routers from "./router";
+import Routers from "./hashHistory";
 
 window.Router = new Routers();
 const content = document.querySelector('body');
