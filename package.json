@@ -1,0 +1,26 @@
+{
+  "name": "fe-router",
+  "version": "1.0.0",
+  "description": "前端路由的两种实现",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1314xu/fe-router.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a1314xu/fe-router/issues"
+  },
+  "homepage": "https://github.com/a1314xu/fe-router#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0"
+  }
+}
