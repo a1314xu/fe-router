@@ -1,7 +1,8 @@
 import Routers from "./router";
 
 window.Router = new Routers();
-var content = document.querySelector('body');
+const content = document.querySelector('body');
+const button = document.querySelector('button');
 // change Page anything
 function changeBgColor(color) {
   content.style.backgroundColor = color;
@@ -15,3 +16,5 @@ Router.route('/blue', function() {
 Router.route('/green', function() {
   changeBgColor('green');
 });
+
+button.addEventListener('click', Router.backOff, false);
